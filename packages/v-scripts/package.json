@@ -2,6 +2,9 @@
   "name": "v-scripts",
   "version": "0.0.0",
   "description": "Configuration and scripts for create-v-app.",
+  "bin": {
+    "v-scripts": "./bin/v-scripts.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zce/create-v-app.git"
@@ -11,5 +14,51 @@
   "bugs": {
     "url": "https://github.com/zce/create-v-app/issues"
   },
-  "homepage": "https://github.com/zce/create-v-app#readme"
+  "homepage": "https://github.com/zce/create-v-app#readme",
+  "dependencies": {
+    "autoprefixer": "^6.7.7",
+    "babel-core": "^6.24.0",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.4.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.2.1",
+    "babel-preset-stage-2": "^6.22.0",
+    "chalk": "^1.1.3",
+    "compression-webpack-plugin": "^0.3.2",
+    "connect-history-api-fallback": "^1.3.0",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.27.3",
+    "eslint": "^3.17.1",
+    "eslint-config-standard": "^7.0.1",
+    "eslint-friendly-formatter": "^2.0.7",
+    "eslint-loader": "^1.6.3",
+    "eslint-plugin-html": "^2.0.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^2.1.1",
+    "eventsource-polyfill": "^0.9.6",
+    "express": "^4.15.2",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.10.1",
+    "friendly-errors-webpack-plugin": "^1.6.1",
+    "html-webpack-plugin": "^2.28.0",
+    "http-proxy-middleware": "^0.17.4",
+    "node-sass": "^4.5.0",
+    "opn": "^4.0.2",
+    "optimize-css-assets-webpack-plugin": "^1.3.0",
+    "ora": "^1.1.0",
+    "rimraf": "^2.6.1",
+    "sass-loader": "^6.0.3",
+    "semver": "^5.3.0",
+    "url-loader": "^0.5.8",
+    "vue-loader": "^11.1.4",
+    "vue-style-loader": "^2.0.3",
+    "vue-template-compiler": "^2.2.4",
+    "webpack": "^2.2.1",
+    "webpack-bundle-analyzer": "^2.3.1",
+    "webpack-dev-middleware": "^1.10.1",
+    "webpack-hot-middleware": "^2.17.1"
+  },
+  "devDependencies": {
+    "vue": "^2.2.4"
+  }
 }
