@@ -1,0 +1,25 @@
+{
+  "name": "create-v-app",
+  "version": "0.1.0",
+  "description": "Create Vue apps with no build configuration.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zce/create-v-app.git"
+  },
+  "author": "iceStone <ice@wedn.net> (https://github.com/zce)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zce/create-v-app/issues"
+  },
+  "homepage": "https://github.com/zce/create-v-app#readme",
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "eslint-config-standard": "^7.0.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^2.1.1"
+  }
+}

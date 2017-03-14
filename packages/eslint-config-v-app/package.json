@@ -1,0 +1,15 @@
+{
+  "name": "eslint-config-v-app",
+  "version": "0.0.0",
+  "description": "ESLint configuration used by create-v-app.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zce/create-v-app.git"
+  },
+  "author": "iceStone <ice@wedn.net> (https://github.com/zce)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zce/create-v-app/issues"
+  },
+  "homepage": "https://github.com/zce/create-v-app#readme"
+}
